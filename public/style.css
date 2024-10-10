@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family:monospace;    
+}
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+    display: block;
+    
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: #0e0791;
+    transition: .5s;
+
+}
+.banner{
+   
+    height: 100%;
+    width: 100%;
+    padding: 20px 2cm;
+    align-items: center;
+    background: navajowhite;
+}
+.banner .leftSide{
+    width: 100%;
+} 
+.banner .leftSide h1{
+    font-size: 0.9cm;
+    margin-bottom: 1cm;
+}
+.banner .leftSide p{
+    margin-bottom: 1cm;
+}
+.banner .leftSide button{
+    padding: 15px 25px;
+    background: black;
+    color: white;
+    font-weight: 500;
+    border: none;
+    transition: 0.5s;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.banner .leftSide button:hover{
+    background: grey;
+    color: black;
+}
+.banner .rightSide{
+    padding-left: 1cm;
+}
+.banner .rightSide img{
+    height: 250px;
+    transition: 0.5s;
+}
+.banner .rightSide img:hover{
+    filter:drop-shadow(10px 10px 15px black);
+}
+/* table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 15px;
+    }
+    th,td{
+        background-color: #96d4d4;
+    } */
